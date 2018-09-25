@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="end"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/editText1"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="267dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:gravity="center|top"
+        android:text=""
+        app:fontFamily="@font/montserrat" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:format24Hour="dd MMM, yyyy\n\thh:mm"
+        android:textColor="#cccccc"
+        android:textSize="10sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="buttonClicked"
+        android:text="Hello World!" />
+
+
+
+        <ImageButton
+
+            android:id="@+id/button4"
+            android:layout_width="97dp"
+            android:layout_height="85dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:onClick="buttonClicked"
+            android:scaleType="centerInside"
+            android:src="@drawable/mic_icon" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="242dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="Say 'Hi' to start the conversation."
+        android:textSize="14sp"
+        android:gravity="center"
+        app:fontFamily="@font/montserrat" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="135dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="127dp"
+        android:layout_marginTop="172dp"
+        android:background="#f2f2f2"
+        android:text="Input Text"
+        android:textAlignment="center"
+        app:fontFamily="@font/montserrat"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="127dp" />
+
+</RelativeLayout>
+
+
+

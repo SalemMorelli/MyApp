@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "871670599362",
+    "firebase_url": "https://dr-health-e586d.firebaseio.com",
+    "project_id": "dr-health-e586d",
+    "storage_bucket": "dr-health-e586d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871670599362:android:11b7401ac234e482",
+        "android_client_info": {
+          "package_name": "Dr.Health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871670599362-qtu7puud5f2fo4n87vgacsgegr5krvul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFKwtzRGJAGjHENKPWHt1I0P_VAKumyhM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
